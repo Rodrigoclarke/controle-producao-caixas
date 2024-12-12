@@ -1,0 +1,58 @@
+/* Notificação de sucesso */
+.toast-success {
+    background-color: #4caf50;  /* Cor verde para sucesso */
+    color: white;
+    font-weight: bold;
+}
+
+/* Notificação de erro */
+.toast-error {
+    background-color: #f44336;  /* Cor vermelha para erro */
+    color: white;
+    font-weight: bold;
+}
+
+/* Notificação de alerta */
+.toast-warning {
+    background-color: #ff9800;  /* Cor laranja para alerta */
+    color: white;
+    font-weight: bold;
+}
+.export-csv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.export-csv button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.export-csv button:hover {
+    background-color: #45a049;
+}
+.export-pdf {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.export-pdf button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.export-pdf button:hover {
+    background-color: #0056b3;
+}
